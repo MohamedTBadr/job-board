@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aadf58e036553876f813317e19e7dbb1",
+    "content-hash": "26dd7f1458b74f92cbf6da04082dec80",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.346.1",
+            "version": "3.346.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "27401e70b1b01114e4e228861933eb7b78630be7"
+                "reference": "d1403b5a39af7ab7af4fc538deb33013c19c8d33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/27401e70b1b01114e4e228861933eb7b78630be7",
-                "reference": "27401e70b1b01114e4e228861933eb7b78630be7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d1403b5a39af7ab7af4fc538deb33013c19c8d33",
+                "reference": "d1403b5a39af7ab7af4fc538deb33013c19c8d33",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.346.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.346.2"
             },
-            "time": "2025-06-19T18:05:45+00:00"
+            "time": "2025-06-20T18:10:21+00:00"
         },
         {
             "name": "brick/math",
@@ -1208,15 +1208,22 @@
         {
             "name": "job/shared",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MohamedTBadr/job-shared.git",
+                "reference": "c355a456ed3c0a791d760c84ec1e854c21770101"
+            },
             "dist": {
-                "type": "path",
-                "url": "../Shared",
-                "reference": "d0f9a5eea34149e2b1414768448d09ef1bf04278"
+                "type": "zip",
+                "url": "https://api.github.com/repos/MohamedTBadr/job-shared/zipball/c355a456ed3c0a791d760c84ec1e854c21770101",
+                "reference": "c355a456ed3c0a791d760c84ec1e854c21770101",
+                "shasum": ""
             },
             "require": {
                 "laravel/framework": "^12.0",
                 "php": "^8.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1227,9 +1234,11 @@
                 "MIT"
             ],
             "description": "Shared project",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/MohamedTBadr/job-shared/tree/main",
+                "issues": "https://github.com/MohamedTBadr/job-shared/issues"
+            },
+            "time": "2025-06-22T07:52:03+00:00"
         },
         {
             "name": "laravel/breeze",
@@ -2470,16 +2479,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.10.0",
+            "version": "3.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "c1397390dd0a7e0f11660f0ae20f753d88c1f3d9"
+                "reference": "1fd1935b2d90aef2f093c5e35f7ae1257c448d00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/c1397390dd0a7e0f11660f0ae20f753d88c1f3d9",
-                "reference": "c1397390dd0a7e0f11660f0ae20f753d88c1f3d9",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/1fd1935b2d90aef2f093c5e35f7ae1257c448d00",
+                "reference": "1fd1935b2d90aef2f093c5e35f7ae1257c448d00",
                 "shasum": ""
             },
             "require": {
@@ -2571,7 +2580,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-12T10:24:28+00:00"
+            "time": "2025-06-21T15:19:35+00:00"
         },
         {
             "name": "nette/schema",

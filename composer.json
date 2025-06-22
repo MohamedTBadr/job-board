@@ -10,8 +10,8 @@
     "license": "MIT",
     "repositories": [
         {
-"type": "path",
-            "url":"../Shared"        }
+"type": "vcs",
+            "url":"https://github.com/MohamedTBadr/job-shared"        }
     ],
     "require": {
         "php": "^8.2",

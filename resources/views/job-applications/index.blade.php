@@ -32,7 +32,7 @@
                 <div class="flext items-center gap-2">
                     <span>
                         Applied With: {{$app->resume->file_name  }}
-                        <a href="{{ Storage::disk('cloud')->url($app->resume->fileUrl) }}" target="_blank"> View Resume</a>
+                        <a href="{{ Storage::disk('cloud')->url($app->resume->fileUrl) }}" class="text-blue-500 m-3 underline " target="_blank"> View Resume</a>
                     </span>
                 </div>
 
@@ -47,7 +47,7 @@
                             }
 
                         @endphp
-                        <p class="text-sm {{ $statusClass }} w-fit rounded-md ">Status:{{ $app->status }}</p>
+                        <p class="text-sm {{ $statusClass }} p-2 w-fit rounded-md ">Status: {{ $status }}</p>
                         <p class="text-sm bg-indigo-600 text-white p-2 rounded-md w-fit">Score: {{   $app->AI_Generated_score }}</p>
                     </div>
                     <h4 class="text-md">AI Feedback:</h4>

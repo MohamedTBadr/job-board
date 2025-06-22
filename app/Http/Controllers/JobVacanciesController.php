@@ -45,7 +45,7 @@ class JobVacanciesController extends Controller
             $extension = $file->getClientOriginalExtension();
             $orignalFileName = $file->getClientOriginalName();
             //unique for avoiding overriding
-            $fileName = 'resume_' . time() . $extension;
+            $fileName = 'resume_' . time().'.' .$extension;
 
             //storing
 

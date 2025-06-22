@@ -92,7 +92,7 @@ class JobVacanciesController extends Controller
                 'resume_id' => $resumeId,
                 'user_id' => auth()->id(),
                 'AI_Generated_score' => $evalution['AI_Generated_score'],
-                'AI_Generated_feedback' =>$evalution['AI_Generated_feedback ']
+                'AI_Generated_feedback' =>$evalution['AI_Generated_feedback']
 
             ]);
         return redirect()->route('job-applications.index', $id)->with('success', 'Applied succesfully');
